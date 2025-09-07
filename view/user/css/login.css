@@ -1,0 +1,162 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.login-box{
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    width: 26%;
+    padding: 2%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box .hdo{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.login-box .user-box{
+    position: relative;
+}
+
+.login-box .user-box input{
+    position: relative;
+    top: 2vh;
+    width: 95%;
+    padding: 10px 0;
+    font-size: 1vw;
+    color: #fff;
+    margin-bottom: 1px solid #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+}
+
+
+.login-box .user-box label{
+    position: relative;
+    top: -3vh;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.1vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+    top: -5vh;
+    left: 0;
+    color: #03e9f4;
+    font-size: 0.7vw;
+}
+.user-box input[type=checkbox]{
+    position: relative;
+    cursor: pointer;
+    right: 5vh;
+    top: 20%;
+}
+.user-box p{
+    color: #03e9f4;
+    position: relative;
+    top: -3vh;
+    width: 33%;
+    font-size: 1vw;
+    
+}
+
+
+
+img{
+    position: relative;
+    width: 20%;
+    left: 40%;
+    top: 2vh;
+}
+
+a.v1:hover{
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+
+.login-box form a.v1{
+    position: relative;
+    padding: 8px 15px;
+    color: #03e9f4;
+    font-size: 0.8vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+  
+}
+
+a.v1{
+    position: relative;
+    color: #03e9f4;
+    text-decoration: none;
+    top: 2vh;
+}
+
+.but{
+    position: relative;
+    top: 2vh;
+    left: 27.5%;
+    background: linear-gradient(to right, #1b858a, #03e9f4 );
+    height: 6vh;
+    width: 45%;
+    border-radius: 30rem;
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.but:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+.user-box .olho{
+    position: relative;
+    left: 63%;
+    top: -7vh;
+    width: 55%;
+    cursor: pointer;
+}
+
+.erroEmail{
+    position: relative;
+    background-color: rgb(230, 28, 28);
+    color: #fff;
+    width: 20%;
+    height: 5vh;
+    top: 3vh;
+    left: 40%;
+    font-size: 1.2vw;
+    font-size-adjust: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 2rem rgb(187, 18, 18);
+}
+
+
+    

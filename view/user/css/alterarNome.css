@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.nome-box{
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    width: 26%;
+    padding: 2%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.nome-box .h2{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.nome-box .user-box{
+    position: relative;
+}
+
+.nome-box .user-box input{
+    position: relative;
+    top: 2vh;
+    width: 95%;
+    padding: 10px 0;
+    font-size: 1vw;
+    color: #fff;
+    margin-bottom: 1px solid #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+}
+
+
+.nome-box .user-box label{
+    position: relative;
+    top: -3vh;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.1vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.nome-box .user-box input:focus~label,
+.nome-box .user-box input:valid~label{
+    top: -5vh;
+    left: 0;
+    color: #03e9f4;
+    font-size: 0.7vw;
+}
+.user-box input[type=checkbox]{
+    position: relative;
+    cursor: pointer;
+    right: 5vh;
+    top: 20%;
+}
+.user-box p{
+    color: #03e9f4;
+    position: relative;
+    top: -3vh;
+    width: 33%;
+    font-size: 1vw;
+    
+}
+
+
+img{
+    position: relative;
+    width: 20%;
+    left: 40%;
+    top: 2vh;
+}
+
+a.cdr:hover{
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+
+.nome-box form a.cdr{
+    position: relative;
+    padding: 8px 15px;
+    color: #03e9f4;
+    font-size: 0.8vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+  
+}
+
+a.cdr{
+    position: relative;
+    color: #03e9f4;
+    text-decoration: none;
+    top: 2vh;
+}
+
+.but{
+    position: relative;
+    top: 2vh;
+    left: 27.5%;
+    background: linear-gradient(to right, #1b858a, #03e9f4 );
+    height: 6vh;
+    width: 45%;
+    border-radius: 30rem;
+    border: none;
+    font-size: 1vw;
+}
+
+.but:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}

@@ -1,0 +1,228 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.cadastro-box{
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    width: 26%;
+    padding: 2%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.cadastro-box .h2{
+    position: relative;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.cadastro-box .user-box{
+    position: relative;
+}
+
+.cadastro-box .user-box input{
+    position: relative;
+    width: 95%;
+    padding: 10px 0;
+    font-size: 1vw;
+    color: #fff;
+    margin-bottom: 1px solid #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    top: 2vh;
+}
+
+.cadastro-box .user-box1 input, select{
+    position: relative;
+    width: 40%;
+    padding: 1px 0;
+    font-size: 1vw;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 10px;
+    height: 4vh;
+}
+
+.cadastro-box .user-box label{
+    position: relative;
+    top: -3vh;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.1vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.cadastro-box .user-box1 label{
+    position: relative;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.1vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.cadastro-box .user-box input:focus~label,
+.cadastro-box .user-box input:valid~label{
+    top: -5vh;
+    left: 0;
+    color: #03e9f4;
+    font-size: 0.7vw;
+}
+
+
+
+img{
+    position: relative;
+    width: 20%;
+    left: 40%;
+    top: 2vh;
+}
+
+.cadastro-box form a.vl{
+    position: relative;
+    left: 10%;
+    padding: 1vh 2vh;
+    color: #03e9f4;
+    font-size: 0.8vw;
+    font-size-adjust: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro-box a.vl:hover {
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+.cadastro-box form input.reset{
+    position: relative;
+    width: 30%;
+    padding: 1vh 2vh;
+    color: #03e9f4;
+    font-size: 0.8vw;
+    font-size-adjust: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+}
+.user-box input[type=checkbox]{
+    position: relative;
+    cursor: pointer;
+    right: 5vh;
+    top: 20%;
+}
+.user-box p{
+    color: #03e9f4;
+    position: relative;
+    top: -3vh;
+    width: 33%;
+    font-size: 1vw;
+    
+}
+
+input.reset:hover{
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+input.lab1{
+    background-color: #03e9f4;
+}
+option{
+    color: #fff;
+    background-color: #0f1923;
+}
+.opti {
+    border-radius: 20px;
+    height: 4vh;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+input[type=submit]{
+    position: relative;
+    background: aqua;
+    width: 45%;
+    height: 6vh;
+    left: 27.5%;
+    border-radius: 30px;
+    border: none;
+    font-size: 1vw;
+    font-size-adjust: auto;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+.user-box .olho{
+    position: relative;
+    left: 63%;
+    top: -7vh;
+    width: 55%;
+    cursor: pointer;
+}
+
+.erroEmail{
+    position: absolute;
+    background-color: rgb(230, 28, 28);
+    color: #fff;
+    width: 20%;
+    height: 5vh;
+    top: 25vh;
+    left: 10%;
+    font-size: 1.2vw;
+    font-size-adjust: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 2rem rgb(187, 18, 18);
+}
+
+.erroSenha{
+    position: absolute;
+    background-color: rgb(230, 28, 28);
+    color: #fff;
+    width: 20%;
+    height: 15vh;
+    top: 35vh;
+    left: 10%;
+    font-size: 1.2vw;
+    font-size-adjust: auto;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 6px 6px 2rem rgb(187, 18, 18);
+}

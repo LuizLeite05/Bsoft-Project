@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    background: linear-gradient(#141e30, #243b55);
+}
+.header{
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo{
+    position: relative;
+    width: 20%;
+    left: 40%;
+    top: 3vh;
+  }
+.logo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tabela{
+    position: relative;
+    background-color: rgba(0, 0, 0, .6);
+    width: 50%;
+    height: 55vh;
+    left: 25%;
+    top: 10vh;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    padding: 5px;
+}
+table{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+th{
+    font-size-adjust: auto;
+    border: 2px solid black;
+    color: #03e9f4;
+}
+
+.texto{
+    font-size: 1.4vw;
+    font-size-adjust: auto;
+    padding: 10px;
+    border: 2px solid black;
+    color: #fff;
+}
+.acao{
+    border: 2px solid black;
+    width: 25%;
+}
+.acao button{
+    position: relative;
+    font-size: 1vw;
+    font-size-adjust: auto;
+    left: 6%;
+    height: 45px;
+    width: 45%;
+    border-radius: 30px;
+    border: none;
+} 
+.comf{
+    font-size-adjust: auto;
+    background: linear-gradient(to right, #1b858a, #03e9f4 )
+} 
+.rej{
+    background: linear-gradient(to right, rgb(159, 36, 36), rgb(231, 54, 54));
+}
+.comf:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+
+.rej:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px rgb(159, 36, 36), 0 0 10px rgb(159, 36, 36),
+     0 0 15px rgb(159, 36, 36);
+}
+
+.func, .set, .ds{
+    position: relative;
+    width: 25%;
+}
+   
+.funcoes, .acao{
+    width: 10%;
+    text-align: center;
+}
+
+.link {
+    color: #03e9f4;
+    background: transparent;
+    border: none;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.link:hover{
+    background-color: #243b55;
+    color: #fff;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a;
+}
+
+

@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.login-box{
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    width: 25%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box .h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size-adjust: auto;
+    font-size: 1vw;
+}
+
+.login-box .user-box{
+    position: relative;
+}
+
+.login-box .user-box input{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1vw;
+    font-size-adjust: auto ;
+    color: #fff;
+    margin-bottom: 1px solid #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label{
+    position: relative;
+    top: -5vh;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1.5vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+    top: -7vh;
+    left: 0;
+    color: #03e9f4;
+    font-size: 1vw;
+}
+
+img{
+    position: relative;
+    width: 20%;
+    left: 40%;
+}
+a.vl{
+    color: #03e9f4;
+    text-decoration: none;
+    top: 20%;
+
+}
+a.vl:hover{
+    background-color: #243b55;
+    color: white;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+.login-box form a.vl{
+    position: relative;
+    padding: 8px 15px;
+    color: #03e9f4;
+    font-size-adjust: auto;
+    font-size: 1vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.btn{
+    position: relative;
+    top: 25px;
+    left: 30%;
+}
+.btn{
+    background: linear-gradient(to right, #1b858a, #03e9f4 );
+    height: 5vh;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    font-size-adjust: auto;
+    font-size: 1vw;
+}
+.btn:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px #1b858a, 0 0 10px #1b858a, 0 0 15px #1b858a;
+}
+    
